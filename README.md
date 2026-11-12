@@ -66,27 +66,27 @@ Every feature is constructed to respect the 24-hour forecast horizon. **No futur
 ## 🖼️ Visual Insights
 
 ### 1. Missing Values & Timestamp Cross-Check
-![Timestamp Rebuild](image1_placeholder.png)
+![Timestamp Rebuild](Electricity1.png)
 *Auditing missing values and ensuring the rebuilt datetime index perfectly aligns with the provided calendar columns before dropping them.*
 
 ### 2. Demand Trends (2020–2024)
-![Hourly Demand](image2_placeholder.png)
+![Hourly Demand](Electricity2.png)
 *The raw target variable showing strong annual seasonality and daily periodicity.*
 
 ### 3. Daily and Weekly Profiles
-![Daily/Weekly Profiles](image3_placeholder.png)
+![Daily/Weekly Profiles](Electricity3.png)
 *Average demand by hour of day and day of week, revealing morning/evening peaks and weekend drops.*
 
 ### 4. Temperature Response
-![Temperature Scatter](image4_placeholder.png)
+![Temperature Scatter](Electricity4.png)
 *Non-linear relationship: Demand increases both in cold and hot weather.*
 
 ### 5. Correlation Matrix
-![Correlation Matrix](image5_placeholder.png)
+![Correlation Matrix](Electricity5.png)
 *Heatmap showing the correlation between Demand, Temperature, Humidity, and cyclical time features.*
 
 ### 6. Forecast vs. Actual (First Week of Test Set)
-![Forecast vs Actual](image6_placeholder.png)
+![Forecast vs Actual](Electricity6.png)
 *First week of the test set (2024). The LightGBM forecast (orange) tightly tracks the actual demand (blue), heavily outperforming the seasonal-naïve baseline (green).*
 
 ---
