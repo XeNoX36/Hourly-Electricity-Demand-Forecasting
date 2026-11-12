@@ -1,6 +1,7 @@
 # ⚡ Hourly Electricity Demand Forecasting (24-Hour Horizon)
 Built an hourly electricity-demand forecasting pipeline (44K records, 2020–2024) that predicts 24 hours ahead - cleaned timestamps and sensor spikes, engineered cyclical, lag, and degree-hour features, and cut MAE by 56% versus a seasonal-naive baseline on a held-out year, with SHAP explanations.
-![BG](image1_placeholder.png)
+
+![BG](https://github.com/XeNoX36/Hourly-Electricity-Demand-Forecasting/blob/main/Forecasting%20Power%2C%20Securing%20Tomorrow.png)
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
 ![LightGBM](https://img.shields.io/badge/LightGBM-Model-success.svg)
